@@ -18,7 +18,6 @@
 		5D6BE2781E21D53A00A1F2B8 /* VBSocketSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6BE2751E21D53A00A1F2B8 /* VBSocketSDK.m */; };
 		5D6BE27B1E21D58300A1F2B8 /* UIViewController+UE.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6BE27A1E21D58300A1F2B8 /* UIViewController+UE.m */; };
 		5D6BE2921E21D71E00A1F2B8 /* CALayer+Ex.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6BE27E1E21D71E00A1F2B8 /* CALayer+Ex.m */; };
-		5D6BE2931E21D71E00A1F2B8 /* NSData+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6BE2811E21D71E00A1F2B8 /* NSData+YYAdd.m */; };
 		5D6BE2941E21D71E00A1F2B8 /* NSNumber+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6BE2831E21D71E00A1F2B8 /* NSNumber+YYAdd.m */; };
 		5D6BE2951E21D71E00A1F2B8 /* NSObject+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6BE2851E21D71E00A1F2B8 /* NSObject+Extension.m */; };
 		5D6BE2961E21D71E00A1F2B8 /* NSString+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6BE2871E21D71E00A1F2B8 /* NSString+YYAdd.m */; };
@@ -54,8 +53,6 @@
 		5D6BE27D1E21D71E00A1F2B8 /* CALayer+Ex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Ex.h"; sourceTree = "<group>"; };
 		5D6BE27E1E21D71E00A1F2B8 /* CALayer+Ex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Ex.m"; sourceTree = "<group>"; };
 		5D6BE27F1E21D71E00A1F2B8 /* Categary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Categary.h; sourceTree = "<group>"; };
-		5D6BE2801E21D71E00A1F2B8 /* NSData+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+YYAdd.h"; sourceTree = "<group>"; };
-		5D6BE2811E21D71E00A1F2B8 /* NSData+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+YYAdd.m"; sourceTree = "<group>"; };
 		5D6BE2821E21D71E00A1F2B8 /* NSNumber+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+YYAdd.h"; sourceTree = "<group>"; };
 		5D6BE2831E21D71E00A1F2B8 /* NSNumber+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+YYAdd.m"; sourceTree = "<group>"; };
 		5D6BE2841E21D71E00A1F2B8 /* NSObject+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Extension.h"; sourceTree = "<group>"; };
@@ -165,8 +162,6 @@
 				5D6BE27D1E21D71E00A1F2B8 /* CALayer+Ex.h */,
 				5D6BE27E1E21D71E00A1F2B8 /* CALayer+Ex.m */,
 				5D6BE27F1E21D71E00A1F2B8 /* Categary.h */,
-				5D6BE2801E21D71E00A1F2B8 /* NSData+YYAdd.h */,
-				5D6BE2811E21D71E00A1F2B8 /* NSData+YYAdd.m */,
 				5D6BE2821E21D71E00A1F2B8 /* NSNumber+YYAdd.h */,
 				5D6BE2831E21D71E00A1F2B8 /* NSNumber+YYAdd.m */,
 				5D6BE2841E21D71E00A1F2B8 /* NSObject+Extension.h */,
@@ -353,7 +348,6 @@
 				5D6BE2991E21D71E00A1F2B8 /* UIImage+Fit.m in Sources */,
 				5D6BE2921E21D71E00A1F2B8 /* CALayer+Ex.m in Sources */,
 				5D6BE2761E21D53A00A1F2B8 /* VBBlueToothManager.m in Sources */,
-				5D6BE2931E21D71E00A1F2B8 /* NSData+YYAdd.m in Sources */,
 				5D1587091E1F65430098C8A9 /* ViewController.m in Sources */,
 				5D6BE2971E21D71E00A1F2B8 /* UIColor+Helper.m in Sources */,
 				5D1587061E1F65430098C8A9 /* AppDelegate.m in Sources */,
