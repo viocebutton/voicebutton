@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D1587031E1F65430098C8A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1587021E1F65430098C8A9 /* main.m */; };
+		5D1587061E1F65430098C8A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1587051E1F65430098C8A9 /* AppDelegate.m */; };
+		5D1587091E1F65430098C8A9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1587081E1F65430098C8A9 /* ViewController.m */; };
+		5D15870C1E1F65430098C8A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D15870A1E1F65430098C8A9 /* Main.storyboard */; };
+		5D15870E1E1F65430098C8A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D15870D1E1F65430098C8A9 /* Assets.xcassets */; };
+		5D1587111E1F65430098C8A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D15870F1E1F65430098C8A9 /* LaunchScreen.storyboard */; };
+		5D6BE2761E21D53A00A1F2B8 /* VBBlueToothManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6BE2701E21D53A00A1F2B8 /* VBBlueToothManager.m */; };
+		5D6BE2771E21D53A00A1F2B8 /* VBScoketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6BE2731E21D53A00A1F2B8 /* VBScoketManager.m */; };
+		5D6BE2781E21D53A00A1F2B8 /* VBSocketSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6BE2751E21D53A00A1F2B8 /* VBSocketSDK.m */; };
+		5D6BE27B1E21D58300A1F2B8 /* UIViewController+UE.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6BE27A1E21D58300A1F2B8 /* UIViewController+UE.m */; };
+		5D6BE2921E21D71E00A1F2B8 /* CALayer+Ex.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6BE27E1E21D71E00A1F2B8 /* CALayer+Ex.m */; };
+		5D6BE2931E21D71E00A1F2B8 /* NSData+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6BE2811E21D71E00A1F2B8 /* NSData+YYAdd.m */; };
+		5D6BE2941E21D71E00A1F2B8 /* NSNumber+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6BE2831E21D71E00A1F2B8 /* NSNumber+YYAdd.m */; };
+		5D6BE2951E21D71E00A1F2B8 /* NSObject+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6BE2851E21D71E00A1F2B8 /* NSObject+Extension.m */; };
+		5D6BE2961E21D71E00A1F2B8 /* NSString+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6BE2871E21D71E00A1F2B8 /* NSString+YYAdd.m */; };
+		5D6BE2971E21D71E00A1F2B8 /* UIColor+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6BE2891E21D71E00A1F2B8 /* UIColor+Helper.m */; };
+		5D6BE2981E21D71E00A1F2B8 /* UIDevice+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6BE28B1E21D71E00A1F2B8 /* UIDevice+YYAdd.m */; };
+		5D6BE2991E21D71E00A1F2B8 /* UIImage+Fit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6BE28D1E21D71E00A1F2B8 /* UIImage+Fit.m */; };
+		5D6BE29A1E21D71E00A1F2B8 /* UIView+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6BE28F1E21D71E00A1F2B8 /* UIView+YYAdd.m */; };
+		5D6BE29B1E21D71E00A1F2B8 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6BE2911E21D71E00A1F2B8 /* UIViewExt.m */; };
+		C5C4D5418982A31F4652F74E /* libPods-viocebutton.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FCA7918BD629B355F854462 /* libPods-viocebutton.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0FCA7918BD629B355F854462 /* libPods-viocebutton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-viocebutton.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D1586FE1E1F65430098C8A9 /* viocebutton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = viocebutton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D1587021E1F65430098C8A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5D1587041E1F65430098C8A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5D1587051E1F65430098C8A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5D1587071E1F65430098C8A9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5D1587081E1F65430098C8A9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5D15870B1E1F65430098C8A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D15870D1E1F65430098C8A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D1587101E1F65430098C8A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5D1587121E1F65430098C8A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D6BE26F1E21D53A00A1F2B8 /* VBBlueToothManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBBlueToothManager.h; sourceTree = "<group>"; };
+		5D6BE2701E21D53A00A1F2B8 /* VBBlueToothManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBBlueToothManager.m; sourceTree = "<group>"; };
+		5D6BE2721E21D53A00A1F2B8 /* VBScoketManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBScoketManager.h; sourceTree = "<group>"; };
+		5D6BE2731E21D53A00A1F2B8 /* VBScoketManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBScoketManager.m; sourceTree = "<group>"; };
+		5D6BE2741E21D53A00A1F2B8 /* VBSocketSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBSocketSDK.h; sourceTree = "<group>"; };
+		5D6BE2751E21D53A00A1F2B8 /* VBSocketSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBSocketSDK.m; sourceTree = "<group>"; };
+		5D6BE2791E21D58300A1F2B8 /* UIViewController+UE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+UE.h"; sourceTree = "<group>"; };
+		5D6BE27A1E21D58300A1F2B8 /* UIViewController+UE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+UE.m"; sourceTree = "<group>"; };
+		5D6BE27C1E21D65100A1F2B8 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		5D6BE27D1E21D71E00A1F2B8 /* CALayer+Ex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Ex.h"; sourceTree = "<group>"; };
+		5D6BE27E1E21D71E00A1F2B8 /* CALayer+Ex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Ex.m"; sourceTree = "<group>"; };
+		5D6BE27F1E21D71E00A1F2B8 /* Categary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Categary.h; sourceTree = "<group>"; };
+		5D6BE2801E21D71E00A1F2B8 /* NSData+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+YYAdd.h"; sourceTree = "<group>"; };
+		5D6BE2811E21D71E00A1F2B8 /* NSData+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+YYAdd.m"; sourceTree = "<group>"; };
+		5D6BE2821E21D71E00A1F2B8 /* NSNumber+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+YYAdd.h"; sourceTree = "<group>"; };
+		5D6BE2831E21D71E00A1F2B8 /* NSNumber+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+YYAdd.m"; sourceTree = "<group>"; };
+		5D6BE2841E21D71E00A1F2B8 /* NSObject+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Extension.h"; sourceTree = "<group>"; };
+		5D6BE2851E21D71E00A1F2B8 /* NSObject+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Extension.m"; sourceTree = "<group>"; };
+		5D6BE2861E21D71E00A1F2B8 /* NSString+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+YYAdd.h"; sourceTree = "<group>"; };
+		5D6BE2871E21D71E00A1F2B8 /* NSString+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+YYAdd.m"; sourceTree = "<group>"; };
+		5D6BE2881E21D71E00A1F2B8 /* UIColor+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Helper.h"; sourceTree = "<group>"; };
+		5D6BE2891E21D71E00A1F2B8 /* UIColor+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Helper.m"; sourceTree = "<group>"; };
+		5D6BE28A1E21D71E00A1F2B8 /* UIDevice+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+YYAdd.h"; sourceTree = "<group>"; };
+		5D6BE28B1E21D71E00A1F2B8 /* UIDevice+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+YYAdd.m"; sourceTree = "<group>"; };
+		5D6BE28C1E21D71E00A1F2B8 /* UIImage+Fit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Fit.h"; sourceTree = "<group>"; };
+		5D6BE28D1E21D71E00A1F2B8 /* UIImage+Fit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Fit.m"; sourceTree = "<group>"; };
+		5D6BE28E1E21D71E00A1F2B8 /* UIView+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YYAdd.h"; sourceTree = "<group>"; };
+		5D6BE28F1E21D71E00A1F2B8 /* UIView+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YYAdd.m"; sourceTree = "<group>"; };
+		5D6BE2901E21D71E00A1F2B8 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		5D6BE2911E21D71E00A1F2B8 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		5D6BE29C1E21D8BB00A1F2B8 /* YYKitMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYKitMacro.h; sourceTree = "<group>"; };
+		79093715A63793D6F1C615A2 /* Pods-viocebutton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-viocebutton.release.xcconfig"; path = "Pods/Target Support Files/Pods-viocebutton/Pods-viocebutton.release.xcconfig"; sourceTree = "<group>"; };
+		7DE7D66EC674F559983CB750 /* Pods-viocebutton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-viocebutton.debug.xcconfig"; path = "Pods/Target Support Files/Pods-viocebutton/Pods-viocebutton.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D1586FB1E1F65430098C8A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5C4D5418982A31F4652F74E /* libPods-viocebutton.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D1586F51E1F65430098C8A9 = {
+			isa = PBXGroup;
+			children = (
+				5D1587001E1F65430098C8A9 /* viocebutton */,
+				5D1586FF1E1F65430098C8A9 /* Products */,
+				6DD877D9D0377E99DD4D7A28 /* Pods */,
+				5F82F3AAA2FDDEF0504DBA6F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5D1586FF1E1F65430098C8A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D1586FE1E1F65430098C8A9 /* viocebutton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D1587001E1F65430098C8A9 /* viocebutton */ = {
+			isa = PBXGroup;
+			children = (
+				5D1587181E1F65C60098C8A9 /* VBClass */,
+				5D1587191E1F65D70098C8A9 /* VBOther */,
+				5D15871A1E1F65E70098C8A9 /* VBService */,
+				5D1587041E1F65430098C8A9 /* AppDelegate.h */,
+				5D1587051E1F65430098C8A9 /* AppDelegate.m */,
+				5D1587071E1F65430098C8A9 /* ViewController.h */,
+				5D1587081E1F65430098C8A9 /* ViewController.m */,
+				5D15870A1E1F65430098C8A9 /* Main.storyboard */,
+				5D1587011E1F65430098C8A9 /* Supporting Files */,
+			);
+			path = viocebutton;
+			sourceTree = "<group>";
+		};
+		5D1587011E1F65430098C8A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D1587121E1F65430098C8A9 /* Info.plist */,
+				5D15870D1E1F65430098C8A9 /* Assets.xcassets */,
+				5D15870F1E1F65430098C8A9 /* LaunchScreen.storyboard */,
+				5D1587021E1F65430098C8A9 /* main.m */,
+				5D6BE27C1E21D65100A1F2B8 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5D1587181E1F65C60098C8A9 /* VBClass */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VBClass;
+			sourceTree = "<group>";
+		};
+		5D1587191E1F65D70098C8A9 /* VBOther */ = {
+			isa = PBXGroup;
+			children = (
+				5D6BE26D1E21D4F200A1F2B8 /* Category */,
+			);
+			path = VBOther;
+			sourceTree = "<group>";
+		};
+		5D15871A1E1F65E70098C8A9 /* VBService */ = {
+			isa = PBXGroup;
+			children = (
+				5D6BE26E1E21D53A00A1F2B8 /* Bluetooth */,
+				5D6BE2711E21D53A00A1F2B8 /* Socket */,
+			);
+			path = VBService;
+			sourceTree = "<group>";
+		};
+		5D6BE26D1E21D4F200A1F2B8 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				5D6BE27D1E21D71E00A1F2B8 /* CALayer+Ex.h */,
+				5D6BE27E1E21D71E00A1F2B8 /* CALayer+Ex.m */,
+				5D6BE27F1E21D71E00A1F2B8 /* Categary.h */,
+				5D6BE2801E21D71E00A1F2B8 /* NSData+YYAdd.h */,
+				5D6BE2811E21D71E00A1F2B8 /* NSData+YYAdd.m */,
+				5D6BE2821E21D71E00A1F2B8 /* NSNumber+YYAdd.h */,
+				5D6BE2831E21D71E00A1F2B8 /* NSNumber+YYAdd.m */,
+				5D6BE2841E21D71E00A1F2B8 /* NSObject+Extension.h */,
+				5D6BE2851E21D71E00A1F2B8 /* NSObject+Extension.m */,
+				5D6BE2861E21D71E00A1F2B8 /* NSString+YYAdd.h */,
+				5D6BE2871E21D71E00A1F2B8 /* NSString+YYAdd.m */,
+				5D6BE2881E21D71E00A1F2B8 /* UIColor+Helper.h */,
+				5D6BE2891E21D71E00A1F2B8 /* UIColor+Helper.m */,
+				5D6BE28A1E21D71E00A1F2B8 /* UIDevice+YYAdd.h */,
+				5D6BE28B1E21D71E00A1F2B8 /* UIDevice+YYAdd.m */,
+				5D6BE28C1E21D71E00A1F2B8 /* UIImage+Fit.h */,
+				5D6BE28D1E21D71E00A1F2B8 /* UIImage+Fit.m */,
+				5D6BE28E1E21D71E00A1F2B8 /* UIView+YYAdd.h */,
+				5D6BE28F1E21D71E00A1F2B8 /* UIView+YYAdd.m */,
+				5D6BE2901E21D71E00A1F2B8 /* UIViewExt.h */,
+				5D6BE2911E21D71E00A1F2B8 /* UIViewExt.m */,
+				5D6BE2791E21D58300A1F2B8 /* UIViewController+UE.h */,
+				5D6BE27A1E21D58300A1F2B8 /* UIViewController+UE.m */,
+				5D6BE29C1E21D8BB00A1F2B8 /* YYKitMacro.h */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		5D6BE26E1E21D53A00A1F2B8 /* Bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				5D6BE26F1E21D53A00A1F2B8 /* VBBlueToothManager.h */,
+				5D6BE2701E21D53A00A1F2B8 /* VBBlueToothManager.m */,
+			);
+			path = Bluetooth;
+			sourceTree = "<group>";
+		};
+		5D6BE2711E21D53A00A1F2B8 /* Socket */ = {
+			isa = PBXGroup;
+			children = (
+				5D6BE2721E21D53A00A1F2B8 /* VBScoketManager.h */,
+				5D6BE2731E21D53A00A1F2B8 /* VBScoketManager.m */,
+				5D6BE2741E21D53A00A1F2B8 /* VBSocketSDK.h */,
+				5D6BE2751E21D53A00A1F2B8 /* VBSocketSDK.m */,
+			);
+			path = Socket;
+			sourceTree = "<group>";
+		};
+		5F82F3AAA2FDDEF0504DBA6F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FCA7918BD629B355F854462 /* libPods-viocebutton.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6DD877D9D0377E99DD4D7A28 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7DE7D66EC674F559983CB750 /* Pods-viocebutton.debug.xcconfig */,
+				79093715A63793D6F1C615A2 /* Pods-viocebutton.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D1586FD1E1F65430098C8A9 /* viocebutton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D1587151E1F65430098C8A9 /* Build configuration list for PBXNativeTarget "viocebutton" */;
+			buildPhases = (
+				919FB63F7D97CC340EE3BBB4 /* [CP] Check Pods Manifest.lock */,
+				5D1586FA1E1F65430098C8A9 /* Sources */,
+				5D1586FB1E1F65430098C8A9 /* Frameworks */,
+				5D1586FC1E1F65430098C8A9 /* Resources */,
+				9DDA05D10AD2009BFAFC455D /* [CP] Embed Pods Frameworks */,
+				45EE1F7D9377A62E806844CD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = viocebutton;
+			productName = viocebutton;
+			productReference = 5D1586FE1E1F65430098C8A9 /* viocebutton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D1586F61E1F65430098C8A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = detu;
+				TargetAttributes = {
+					5D1586FD1E1F65430098C8A9 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = DDSZZTF2EY;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5D1586F91E1F65430098C8A9 /* Build configuration list for PBXProject "viocebutton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D1586F51E1F65430098C8A9;
+			productRefGroup = 5D1586FF1E1F65430098C8A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D1586FD1E1F65430098C8A9 /* viocebutton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D1586FC1E1F65430098C8A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D1587111E1F65430098C8A9 /* LaunchScreen.storyboard in Resources */,
+				5D15870E1E1F65430098C8A9 /* Assets.xcassets in Resources */,
+				5D15870C1E1F65430098C8A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		45EE1F7D9377A62E806844CD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-viocebutton/Pods-viocebutton-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		919FB63F7D97CC340EE3BBB4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9DDA05D10AD2009BFAFC455D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-viocebutton/Pods-viocebutton-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D1586FA1E1F65430098C8A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D6BE2991E21D71E00A1F2B8 /* UIImage+Fit.m in Sources */,
+				5D6BE2921E21D71E00A1F2B8 /* CALayer+Ex.m in Sources */,
+				5D6BE2761E21D53A00A1F2B8 /* VBBlueToothManager.m in Sources */,
+				5D6BE2931E21D71E00A1F2B8 /* NSData+YYAdd.m in Sources */,
+				5D1587091E1F65430098C8A9 /* ViewController.m in Sources */,
+				5D6BE2971E21D71E00A1F2B8 /* UIColor+Helper.m in Sources */,
+				5D1587061E1F65430098C8A9 /* AppDelegate.m in Sources */,
+				5D6BE2961E21D71E00A1F2B8 /* NSString+YYAdd.m in Sources */,
+				5D6BE29A1E21D71E00A1F2B8 /* UIView+YYAdd.m in Sources */,
+				5D6BE2781E21D53A00A1F2B8 /* VBSocketSDK.m in Sources */,
+				5D1587031E1F65430098C8A9 /* main.m in Sources */,
+				5D6BE2951E21D71E00A1F2B8 /* NSObject+Extension.m in Sources */,
+				5D6BE2941E21D71E00A1F2B8 /* NSNumber+YYAdd.m in Sources */,
+				5D6BE2981E21D71E00A1F2B8 /* UIDevice+YYAdd.m in Sources */,
+				5D6BE27B1E21D58300A1F2B8 /* UIViewController+UE.m in Sources */,
+				5D6BE2771E21D53A00A1F2B8 /* VBScoketManager.m in Sources */,
+				5D6BE29B1E21D71E00A1F2B8 /* UIViewExt.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5D15870A1E1F65430098C8A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D15870B1E1F65430098C8A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5D15870F1E1F65430098C8A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D1587101E1F65430098C8A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D1587131E1F65430098C8A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D1587141E1F65430098C8A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D1587161E1F65430098C8A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DE7D66EC674F559983CB750 /* Pods-viocebutton.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DDSZZTF2EY;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = viocebutton/PrefixHeader.pch;
+				INFOPLIST_FILE = viocebutton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sam.viocebutton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5D1587171E1F65430098C8A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79093715A63793D6F1C615A2 /* Pods-viocebutton.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DDSZZTF2EY;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = viocebutton/PrefixHeader.pch;
+				INFOPLIST_FILE = viocebutton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sam.viocebutton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D1586F91E1F65430098C8A9 /* Build configuration list for PBXProject "viocebutton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D1587131E1F65430098C8A9 /* Debug */,
+				5D1587141E1F65430098C8A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D1587151E1F65430098C8A9 /* Build configuration list for PBXNativeTarget "viocebutton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D1587161E1F65430098C8A9 /* Debug */,
+				5D1587171E1F65430098C8A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D1586F61E1F65430098C8A9 /* Project object */;
+}
