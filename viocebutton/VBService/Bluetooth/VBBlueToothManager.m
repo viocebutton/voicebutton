@@ -11,12 +11,12 @@
 
 + (CBUUID *) ServiceUUID
 {
-    return [CBUUID UUIDWithString:@"FFF0"];
+    return [CBUUID UUIDWithString:@"FFA0"];
 }
 
 + (CBUUID *) ValueCharacteristicUUID
 {
-    return [CBUUID UUIDWithString:@"FFF1"];
+    return [CBUUID UUIDWithString:@"FFA1"];
 }
 
 + (CBUUID *) StateCharacteristicUUID

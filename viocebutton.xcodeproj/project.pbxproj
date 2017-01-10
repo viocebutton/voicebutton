@@ -13,6 +13,7 @@
 		5D15870C1E1F65430098C8A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D15870A1E1F65430098C8A9 /* Main.storyboard */; };
 		5D15870E1E1F65430098C8A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D15870D1E1F65430098C8A9 /* Assets.xcassets */; };
 		5D1587111E1F65430098C8A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D15870F1E1F65430098C8A9 /* LaunchScreen.storyboard */; };
+		5D57E9DC1E25500700A2DDC8 /* VBSocketService.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D57E9DB1E25500700A2DDC8 /* VBSocketService.m */; };
 		5D6BE2761E21D53A00A1F2B8 /* VBBlueToothManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6BE2701E21D53A00A1F2B8 /* VBBlueToothManager.m */; };
 		5D6BE2771E21D53A00A1F2B8 /* VBScoketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6BE2731E21D53A00A1F2B8 /* VBScoketManager.m */; };
 		5D6BE2781E21D53A00A1F2B8 /* VBSocketSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6BE2751E21D53A00A1F2B8 /* VBSocketSDK.m */; };
@@ -41,6 +42,8 @@
 		5D15870D1E1F65430098C8A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D1587101E1F65430098C8A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D1587121E1F65430098C8A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D57E9DA1E25500700A2DDC8 /* VBSocketService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBSocketService.h; sourceTree = "<group>"; };
+		5D57E9DB1E25500700A2DDC8 /* VBSocketService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBSocketService.m; sourceTree = "<group>"; };
 		5D6BE26F1E21D53A00A1F2B8 /* VBBlueToothManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBBlueToothManager.h; sourceTree = "<group>"; };
 		5D6BE2701E21D53A00A1F2B8 /* VBBlueToothManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBBlueToothManager.m; sourceTree = "<group>"; };
 		5D6BE2721E21D53A00A1F2B8 /* VBScoketManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBScoketManager.h; sourceTree = "<group>"; };
@@ -201,6 +204,8 @@
 				5D6BE2731E21D53A00A1F2B8 /* VBScoketManager.m */,
 				5D6BE2741E21D53A00A1F2B8 /* VBSocketSDK.h */,
 				5D6BE2751E21D53A00A1F2B8 /* VBSocketSDK.m */,
+				5D57E9DA1E25500700A2DDC8 /* VBSocketService.h */,
+				5D57E9DB1E25500700A2DDC8 /* VBSocketService.m */,
 			);
 			path = Socket;
 			sourceTree = "<group>";
@@ -351,6 +356,7 @@
 				5D1587091E1F65430098C8A9 /* ViewController.m in Sources */,
 				5D6BE2971E21D71E00A1F2B8 /* UIColor+Helper.m in Sources */,
 				5D1587061E1F65430098C8A9 /* AppDelegate.m in Sources */,
+				5D57E9DC1E25500700A2DDC8 /* VBSocketService.m in Sources */,
 				5D6BE2961E21D71E00A1F2B8 /* NSString+YYAdd.m in Sources */,
 				5D6BE29A1E21D71E00A1F2B8 /* UIView+YYAdd.m in Sources */,
 				5D6BE2781E21D53A00A1F2B8 /* VBSocketSDK.m in Sources */,
