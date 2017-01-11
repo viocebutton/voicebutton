@@ -15,8 +15,6 @@
 		5D1587111E1F65430098C8A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D15870F1E1F65430098C8A9 /* LaunchScreen.storyboard */; };
 		5D57E9DC1E25500700A2DDC8 /* VBSocketService.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D57E9DB1E25500700A2DDC8 /* VBSocketService.m */; };
 		5D6BE2761E21D53A00A1F2B8 /* VBBlueToothManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6BE2701E21D53A00A1F2B8 /* VBBlueToothManager.m */; };
-		5D6BE2771E21D53A00A1F2B8 /* VBScoketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6BE2731E21D53A00A1F2B8 /* VBScoketManager.m */; };
-		5D6BE2781E21D53A00A1F2B8 /* VBSocketSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6BE2751E21D53A00A1F2B8 /* VBSocketSDK.m */; };
 		5D6BE27B1E21D58300A1F2B8 /* UIViewController+UE.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6BE27A1E21D58300A1F2B8 /* UIViewController+UE.m */; };
 		5D6BE2921E21D71E00A1F2B8 /* CALayer+Ex.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6BE27E1E21D71E00A1F2B8 /* CALayer+Ex.m */; };
 		5D6BE2941E21D71E00A1F2B8 /* NSNumber+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6BE2831E21D71E00A1F2B8 /* NSNumber+YYAdd.m */; };
@@ -46,10 +44,6 @@
 		5D57E9DB1E25500700A2DDC8 /* VBSocketService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBSocketService.m; sourceTree = "<group>"; };
 		5D6BE26F1E21D53A00A1F2B8 /* VBBlueToothManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBBlueToothManager.h; sourceTree = "<group>"; };
 		5D6BE2701E21D53A00A1F2B8 /* VBBlueToothManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBBlueToothManager.m; sourceTree = "<group>"; };
-		5D6BE2721E21D53A00A1F2B8 /* VBScoketManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBScoketManager.h; sourceTree = "<group>"; };
-		5D6BE2731E21D53A00A1F2B8 /* VBScoketManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBScoketManager.m; sourceTree = "<group>"; };
-		5D6BE2741E21D53A00A1F2B8 /* VBSocketSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBSocketSDK.h; sourceTree = "<group>"; };
-		5D6BE2751E21D53A00A1F2B8 /* VBSocketSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBSocketSDK.m; sourceTree = "<group>"; };
 		5D6BE2791E21D58300A1F2B8 /* UIViewController+UE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+UE.h"; sourceTree = "<group>"; };
 		5D6BE27A1E21D58300A1F2B8 /* UIViewController+UE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+UE.m"; sourceTree = "<group>"; };
 		5D6BE27C1E21D65100A1F2B8 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -200,10 +194,6 @@
 		5D6BE2711E21D53A00A1F2B8 /* Socket */ = {
 			isa = PBXGroup;
 			children = (
-				5D6BE2721E21D53A00A1F2B8 /* VBScoketManager.h */,
-				5D6BE2731E21D53A00A1F2B8 /* VBScoketManager.m */,
-				5D6BE2741E21D53A00A1F2B8 /* VBSocketSDK.h */,
-				5D6BE2751E21D53A00A1F2B8 /* VBSocketSDK.m */,
 				5D57E9DA1E25500700A2DDC8 /* VBSocketService.h */,
 				5D57E9DB1E25500700A2DDC8 /* VBSocketService.m */,
 			);
@@ -359,13 +349,11 @@
 				5D57E9DC1E25500700A2DDC8 /* VBSocketService.m in Sources */,
 				5D6BE2961E21D71E00A1F2B8 /* NSString+YYAdd.m in Sources */,
 				5D6BE29A1E21D71E00A1F2B8 /* UIView+YYAdd.m in Sources */,
-				5D6BE2781E21D53A00A1F2B8 /* VBSocketSDK.m in Sources */,
 				5D1587031E1F65430098C8A9 /* main.m in Sources */,
 				5D6BE2951E21D71E00A1F2B8 /* NSObject+Extension.m in Sources */,
 				5D6BE2941E21D71E00A1F2B8 /* NSNumber+YYAdd.m in Sources */,
 				5D6BE2981E21D71E00A1F2B8 /* UIDevice+YYAdd.m in Sources */,
 				5D6BE27B1E21D58300A1F2B8 /* UIViewController+UE.m in Sources */,
-				5D6BE2771E21D53A00A1F2B8 /* VBScoketManager.m in Sources */,
 				5D6BE29B1E21D71E00A1F2B8 /* UIViewExt.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

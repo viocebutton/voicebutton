@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "VBSocketService.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [[VBSocketService shareInstance] startSocketServer]; // 开启socket服务器监控
+    
     return YES;
 }
 

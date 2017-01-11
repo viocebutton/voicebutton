@@ -8,6 +8,9 @@
 #import <Foundation/Foundation.h>
 #import "GCDAsyncSocket.h"
 
+/**
+ *   Socket客户端
+ */
 
 @interface VBSocketSDK : NSObject <GCDAsyncSocketDelegate>
 
