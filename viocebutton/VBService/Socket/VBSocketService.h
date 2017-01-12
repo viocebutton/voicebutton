@@ -24,5 +24,5 @@ typedef void(^clientData)(NSData * data);
 + (instancetype)shareInstance ;
 
 - (void)startSocketServer ;
-- (NSString *)getIpAddresses ;
+- (NSString *)socketIP ;
 @end

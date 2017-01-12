@@ -18,34 +18,22 @@
 
 
 
-@protocol BTDartboardDelegate
-@optional
-- (void) didReceiveData:(NSString *) string score:(NSString *)score;
-- (void) didReadBatteryLevel:(NSString *) battery;
-- (void) didDisConnect;
-@end
+
 @interface VBBlueToothManager : NSObject <CBCentralManagerDelegate, CBPeripheralDelegate>
 
-@property (nonatomic, assign) id <BTDartboardDelegate> delegate;
 @property (strong, nonatomic) CBCentralManager *manager;
 @property (strong, nonatomic) CBPeripheral *peripheral;
+@property (copy, nonatomic) void(^blueToothRes)(NSData *data);
+@property (copy, nonatomic) void(^connectRes)(BOOL success);
 
-@property CBService *f4Service;
+@property CBService *Service;
 @property CBCharacteristic *boardValueCharacteristic;
 @property CBCharacteristic *boardStateCharacteristic;
 @property CBCharacteristic *characteristic;
 
-@property CBService *batteryService;
-@property CBCharacteristic *batteryLevelCharacteristic;
-@property (nonatomic, strong) NSMutableArray *BLEArray;
-@property (nonatomic, strong) NSMutableArray *RSSIArray;
-@property (nonatomic, copy) void (^updateBLEArray)(NSArray *array, NSArray *RSSIArray);
-@property (nonatomic, copy) void(^didConnect)();
-@property (nonatomic, copy) void(^success)(NSError *error);
 #pragma mark - Methods for controlling the joofunn Dartboard
--(void) setup;
--(int) findPeripherals;
--(void) writeString:(NSData *) data;
-- (void)connectPeripheralF4:(CBPeripheral *)F4;
-- (void)sendCMD:(NSString *)cmd;
+
++ (instancetype)shareInstance ;
+- (VBBlueToothManager *) start;
+- (void) writeData:(NSData *)data res:(void(^)(NSData *data))res;
 @end

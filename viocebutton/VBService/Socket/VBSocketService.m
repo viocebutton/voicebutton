@@ -72,7 +72,9 @@
     // 外传数据
     if(self.clientData)self.clientData([receiverStr dataUsingEncoding:NSUTF8StringEncoding]);
     // 回应客户端
-    [sock writeData:[@"OK" dataUsingEncoding:NSUTF8StringEncoding] withTimeout:-1 tag:0];
+//    [sock writeData:[@"OK" dataUsingEncoding:NSUTF8StringEncoding] withTimeout:-1 tag:0];
+    // 接着读
+    [sock readDataWithTimeout:-1 tag:100];
     // quit指令
     if ([receiverStr isEqualToString:@"quit"]) {
         

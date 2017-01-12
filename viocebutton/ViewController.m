@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 #import "VBSocketService.h"
+#import "VBBlueToothManager.h"
+
 @interface ViewController ()
 
 @end
@@ -34,6 +36,8 @@
     [testTwo addTarget:self action:@selector(testTwo:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:testTwo];
     
+    
+    // socket 监听数据返回  在delegate开启
     __weak typeof(self) weakSelf = self;
     [VBSocketService shareInstance].clientData = ^(NSData * data){
         __strong typeof(weakSelf) strongSelf = weakSelf;
@@ -41,14 +45,32 @@
             [strongSelf showAlertIndictorWithMessage:[[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding] withDelay:1];
         } afterDelay:0];
     };
+    
+    
+    //蓝牙 开启
+    [[VBBlueToothManager shareInstance] start].connectRes = ^(BOOL success){
+    
+        if (success) {
+            [self performBlock:^{
+                [self showAlertIndictorWithMessage:@"蓝牙链接成功" withDelay:2];
+            } afterDelay:.01];
+        }
+    };
 }
 
 - (void)monitor:(UIButton *)sender {
     
+    NSDictionary * data = @{@"SSID":@"xiaowanzi",@"password":@"LINXIAN123", @"server IP":[VBSocketService shareInstance].socketIP, @"port":[VBSocketService shareInstance].socketPort};
+    NSData * jsonData = [NSJSONSerialization dataWithJSONObject:data options:NSJSONWritingPrettyPrinted error:nil];
+    [[VBBlueToothManager shareInstance] writeData:jsonData res:^(NSData *data) {
+        if (data) {
+            NSLog(@"");
+        }
+    }];
 }
 
 - (void)testTwo:(UIButton *)sender {
-    [[VBSocketService shareInstance] getIpAddresses];
+    NSLog(@"%@",[VBSocketService shareInstance].socketIP);
 }
 
 - (void)didReceiveMemoryWarning {
